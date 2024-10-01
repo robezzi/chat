@@ -1,17 +1,12 @@
-import '../styles/main.css';
-function Main() {
+import React from 'react';
+import ChatWindow from './ChatWindow'; // Импортируйте ChatWindow
+
+function Main({ activeContact }) {
     return (
-        <div className='app-main'>
-            <p>Main</p>
-        </div>
+        <main className="main">
+            {activeContact && <ChatWindow contact={activeContact} />}
+        </main>
     );
 }
 
 export default Main;
-
-
-
-
-
-
-
