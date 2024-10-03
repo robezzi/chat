@@ -13,7 +13,7 @@ function Aside({ contacts, onContactClick }) {
             return contact.name.toLowerCase().includes(searchValue.toLowerCase());
         });
         setFilteredContacts(filtered);
-    }, [contacts, searchValue]); // Зависимости useEffect: contacts и searchValue
+    }, [contacts, searchValue]);
 
     const handleSearchChange = (event) => {
         setSearchValue(event.target.value);

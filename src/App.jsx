@@ -11,7 +11,7 @@ function App() {
     { name: "Евгений Петров", id: 5 },
     { name: "Павел Петров", id: 6 },
   ]);
-  const [messages, setMessages] = useState({}); // Используйте объект для хранения сообщений по ID контакта
+  const [messages, setMessages] = useState({}); // Объект для хранения сообщений по ID контакта
   const [activeContact, setActiveContact] = useState(null);
 
   const handleContactClick = (contact) => {
