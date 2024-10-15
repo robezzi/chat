@@ -1,0 +1,45 @@
+.aside-container{
+    background-color: #D3CCE3;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    flex-basis: 20%;
+   
+}
+.aside-header{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.aside-header p{
+    margin-right: 10px;
+}
+.aside-header input{
+    border-radius: 15px;
+    border: none;
+    padding: 6px 10px;
+    width: 100%;
+}
+.contact-card{
+    margin: 5px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contact-card:hover{
+    background-color: #c9c3d7;
+}
+.contact-card ul{
+    list-style: none;
+    
+}
+.contact-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-card-container-time{
+    align-self: flex-start;
+    font-size: 12px;
+}
+.contact-card-container-memberinfo{
+    display: flex;
+}
