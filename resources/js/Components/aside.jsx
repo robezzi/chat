@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/aside.css';
 import ContactCard from '../Components/contact-card';
+import logo from "../img/logo.svg"
 
 function Aside({ contacts, onContactClick }) {
     const [filteredContacts, setFilteredContacts] = useState(contacts);
@@ -22,7 +23,7 @@ function Aside({ contacts, onContactClick }) {
     return (
         <div className="aside-container">
             <div className="aside-header">
-                <p>Logo</p>
+                <img src={logo} className='logo-aside' />
                 <input
                     type="text"
                     placeholder="Search"

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Aside from "../Components/aside"
 import ChatWindow from '../Components/chat-window';
 import "../styles/App.css"
+
 function Home({ users }) {
 
   const [messages, setMessages] = useState({}); // Объект для хранения сообщений по ID контакта

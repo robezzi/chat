@@ -1,5 +1,5 @@
 .aside-container{
-    background-color: #D3CCE3;
+    background-color:#30435244;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     flex-basis: 20%;
    
@@ -8,6 +8,7 @@
     display: flex;
     padding: 15px;
     align-items: center;
+
 }
 .aside-header p{
     margin-right: 10px;
@@ -42,4 +43,8 @@
 }
 .contact-card-container-memberinfo{
     display: flex;
+}
+.logo-aside{
+    width: 40px;
+    margin-right: 5px; 
 }
